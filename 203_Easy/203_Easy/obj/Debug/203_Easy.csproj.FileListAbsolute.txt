@@ -1,0 +1,9 @@
+H:\CodyWahl\Sandboxes\Dailies\203 [Easy]\203_Easy\203_Easy\bin\Debug\203_Easy.exe.config
+H:\CodyWahl\Sandboxes\Dailies\203 [Easy]\203_Easy\203_Easy\bin\Debug\203_Easy.exe
+H:\CodyWahl\Sandboxes\Dailies\203 [Easy]\203_Easy\203_Easy\bin\Debug\203_Easy.pdb
+H:\CodyWahl\Sandboxes\Dailies\203 [Easy]\203_Easy\203_Easy\obj\Debug\_203_Easy.Properties.Resources.resources
+H:\CodyWahl\Sandboxes\Dailies\203 [Easy]\203_Easy\203_Easy\obj\Debug\203_Easy.csproj.GenerateResource.Cache
+H:\CodyWahl\Sandboxes\Dailies\203 [Easy]\203_Easy\203_Easy\obj\Debug\203_Easy.exe
+H:\CodyWahl\Sandboxes\Dailies\203 [Easy]\203_Easy\203_Easy\obj\Debug\203_Easy.pdb
+H:\CodyWahl\Sandboxes\Dailies\203 [Easy]\203_Easy\203_Easy\obj\Debug\_203_Easy.EasySquare.resources
+H:\CodyWahl\Sandboxes\Dailies\203 [Easy]\203_Easy\203_Easy\obj\Debug\203_Easy.csprojResolveAssemblyReference.cache
