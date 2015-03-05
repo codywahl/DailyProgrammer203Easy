@@ -14,7 +14,7 @@ namespace _203_Easy
 
         private const int HT_CAPTION = 0x2;
 
-                    private Random r = new Random();
+        private Random r = new Random();
 
         #endregion Constants
 
@@ -49,14 +49,14 @@ namespace _203_Easy
         private void SetNewSize()
         {
             int size = r.Next(50, 1000);
-            this.Size = new Size(size,size);
+            this.Size = new Size(size, size);
             AdjustTheXsPosition(size);
         }
 
         private void AdjustTheXsPosition(int formSize)
         {
-            int location = (formSize / 2) - (X.Width / 2);
-            X.Location = new Point(location, location);
+            int location = (formSize / 2) - (CloseLabel.Width / 2);
+            CloseLabel.Location = new Point(location, location);
         }
 
         #endregion Private Helpers
@@ -69,7 +69,7 @@ namespace _203_Easy
             {
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
-                
+
                 SetNewBackgroundColor();
                 SetNewSize();
             }

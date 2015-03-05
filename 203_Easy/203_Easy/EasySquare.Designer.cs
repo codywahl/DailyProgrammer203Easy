@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.X = new System.Windows.Forms.Label();
+            this.CloseLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // X
+            // CloseLabel
             // 
-            this.X.AutoSize = true;
-            this.X.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.X.Location = new System.Drawing.Point(89, 64);
-            this.X.Name = "X";
-            this.X.Size = new System.Drawing.Size(14, 13);
-            this.X.TabIndex = 0;
-            this.X.Text = "X";
-            this.X.Click += new System.EventHandler(this.X_Click);
+            this.CloseLabel.AutoSize = true;
+            this.CloseLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CloseLabel.Location = new System.Drawing.Point(89, 64);
+            this.CloseLabel.Name = "CloseLabel";
+            this.CloseLabel.Size = new System.Drawing.Size(14, 13);
+            this.CloseLabel.TabIndex = 0;
+            this.CloseLabel.Text = "X";
+            this.CloseLabel.Click += new System.EventHandler(this.X_Click);
             // 
             // EasySquare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(184, 162);
-            this.Controls.Add(this.X);
+            this.Controls.Add(this.CloseLabel);
             this.Name = "EasySquare";
             this.Text = "EasySquare";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.EasySquare_MouseDown);
@@ -58,6 +58,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label X;
+        private System.Windows.Forms.Label CloseLabel;
     }
 }
